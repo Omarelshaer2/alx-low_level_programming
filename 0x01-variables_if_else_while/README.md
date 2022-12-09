@@ -1,1 +1,1 @@
-this project include IF, else, while, variables
+variables and if statments coding
