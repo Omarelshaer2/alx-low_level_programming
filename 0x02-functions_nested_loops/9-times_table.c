@@ -1,12 +1,15 @@
-#include "MAIN.H"
+#include "main.h""
  
 /** 
  *times_table - prints the 9 times table 
  * 
- *Return: returns nothing 
+ *Return: always 0.
  */ 
- void times_table(void) 
- { 
+ int main(void)
+{
+	times_table();
+	return (0);
+}
  int digit, mult, result; 
  for (digit = 0; digit <= 9; digit++) 
  { 
