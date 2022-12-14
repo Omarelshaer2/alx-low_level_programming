@@ -9,7 +9,7 @@ int main(void)
 {
 	times_table();
 	return (0);
-void time_teble(void)
+	time_teble(void)
 {
 int a;
 int b;
