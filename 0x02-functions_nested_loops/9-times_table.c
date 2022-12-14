@@ -1,15 +1,11 @@
 #include "main.h"
 
 /**
-* time_teble -prints tables
+* times_table -prints tables
 *
 * Return: Always 0.
 */
-int main(void)
-{
-	times_table();
-	return (0);
-	time_teble(void)
+void times_table(void)
 {
 int a;
 int b;
