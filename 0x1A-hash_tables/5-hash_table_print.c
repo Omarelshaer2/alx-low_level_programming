@@ -1,7 +1,9 @@
 #include "hash_tables.h"
 /**
- * hash_table_print - prints hashtable
- * @ht: the hash table you want to print
+  * hash_table_get - retrieves a value associated with a key.
+ * @ht: the hash table you want to look into
+ * @key: is the key you are looking for
+ * Return: value associated with key if found, NULL if failed
  */
 void hash_table_print(const hash_table_t *ht)
 {
