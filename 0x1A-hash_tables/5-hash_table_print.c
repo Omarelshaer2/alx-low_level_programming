@@ -1,11 +1,10 @@
 #include "hash_tables.h"
 /**
-  * hash_table_get - retrieves a value associated with a key.
- * @ht: the hash table you want to look into
- * @key: is the key you are looking for
- */
+* hash_table_get - retrieves a value associated with a key.
+* @ht: the hash table you want to look into
+*/
 void hash_table_print(const hash_table_t *ht)
-{
+{3
 
 unsigned long int i;
 hash_node_t *node;
